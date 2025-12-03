@@ -25,3 +25,9 @@ jobs:
 
       - name: Build project
         run: npm run build
+
+      - name: Build project
+        run: npm run lint:check
+
+      - name: Build project
+        run: npm run zip

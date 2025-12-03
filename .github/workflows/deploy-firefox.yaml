@@ -1,7 +1,7 @@
 name: Build Extensions
 
 on:
-  tag:
+  push:
     branches: ["main"]
   pull_request:
     branches: ["main"]
